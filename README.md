@@ -18,4 +18,14 @@ To add.
 
 ---
 
+### 1. Quality trimming, mapping, and processing of RNA-seq data
+
+Note: These analyses were run on WSU's HPC ([Kamiak](https://hpc.wsu.edu/)). For generalizability, simplified commands are presented here rather than the specific SLURM scripts used to run these commands on Kamiak. 
+
+#### Trimming with TrimGalore
+```bash
+# Run TrimGalore
+trim_galore --paired -q 20 --fastqc --fastqc_args "--noextract --nogroup --outdir 2_TrimGalore/fastqc/" --stringency 5 --illumina --length 50 -o trimmed_reads/ --clip_R1 12 --clip_R2 12 [path/to/read1] [path/to/read2]
+```
+
 
