@@ -50,3 +50,17 @@ Mapping reads
 ```bash
 STAR --genomeDir ./star_reference/ --runThreadN 8 --outFilterMultimapNmax 1 --twopassMode Basic --sjdbGTFfile GCF_023065955.1_UrsArc1.0_genomic.gff --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix ./star_mapped/[output_prefix] --readFilesIn [path/to/file1] [path/to/file2]
 ```
+
+#### Quantifying gene-level read counts with featureCounts
+
+```bash
+# Convert gff to gtf w/ AGAT
+agat_convert_sp_gff2gtf.pl --gff GCF_023065955.1_UrsArc1.0_genomic.gff -o GCF_023065955.1_UrsArc1.0_genomic.gtf
+
+# Convert gtf to SAF using custom python script 
+python2 ./utility_scripts/gtf_to_saf.allGeneInfo.py GCF_023065955.1_UrsArc1.0_genomic.gtf exon
+# Output file is titled GCF_023065955.1_UrsArc1.0_genomic.allGeneInfo.saf
+
+# Quantify gene-level counts using featureCounts
+featureCounts -p -F 'gtf' -T 8 -t exon -g gene_id -a GCF_023065955.1_UrsArc1.0_genomic.allGeneInfo.saf -o ./postDexExperiment_08.10.22.txt [path/to/star_mapped]/*.sortedByCoord.out.bam
+```
