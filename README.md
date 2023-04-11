@@ -14,7 +14,8 @@ For questions, please contact blair.perry(at)wsu.edu.
 		- Raw data are available at NCBI Bioproject [PRJNA578991](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA578991)
 
 ## Contents
-To add. 
+[1. Quality trimming, mapping, and processing of RNA-seq data](#1-quality-trimming-mapping-and-processing-of-rna-seq-data)
+IN PROGRESS.
 
 ---
 
