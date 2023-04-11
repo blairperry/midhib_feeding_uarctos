@@ -62,3 +62,15 @@ python2 ./utility_scripts/gtf_to_saf.allGeneInfo.py GCF_023065955.1_UrsArc1.0_ge
 # Quantify gene-level counts using featureCounts
 featureCounts -p -F 'gtf' -T 8 -t exon -g gene_id -a GCF_023065955.1_UrsArc1.0_genomic.allGeneInfo.saf -o ./postDexExperiment_08.10.22.txt [path/to/star_mapped]/*.sortedByCoord.out.bam
 ```
+
+
+#### Transcipt-level quantification with Kallisto
+Transcriptome: [GCF_023065955.1_UrsArc1.0_rna.fna](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/023/065/955/GCF_023065955.1_UrsArc1.0/GCF_023065955.1_UrsArc1.0_rna.fna.gz)
+
+```bash
+# Index transcriptome
+kallisto index -i transcripts.idx GCF_023065955.1_UrsArc1.0_rna.fna
+
+# Run Kallisto
+kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/$file_name [path/to/read1] [path/to/read2]
+```
