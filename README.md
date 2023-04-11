@@ -28,4 +28,25 @@ Note: These analyses were run on WSU's HPC ([Kamiak](https://hpc.wsu.edu/)). For
 trim_galore --paired -q 20 --fastqc --fastqc_args "--noextract --nogroup --outdir 2_TrimGalore/fastqc/" --stringency 5 --illumina --length 50 -o trimmed_reads/ --clip_R1 12 --clip_R2 12 [path/to/read1] [path/to/read2]
 ```
 
+#### Downsampling reads
+- B4 sample has ~12M read pairs, while most others from that experiment have between 3-4M.
+- Jansen 2019 samples have average of ~20-22M read pairs per sample.
+- The feeding experiment samples (excluding B4) have on average 6.4M read pairs per sample. Going to downsample B4 and Jansen 2019 samples to that number. 
 
+```bash
+seqtk sample -s100 [path/to/trimmmed/read1] 6400000 > ./subsampled/[path/to/trimmed/read1/subset]
+seqtk sample -s100 [path/to/trimmmed/read2] 6400000 > ./subsampled/[path/to/trimmed/read2/subset]
+```
+
+#### Mapping with STAR
+
+##### Index genome for use with STAR
+Assembly: [GCF_023065955.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_023065955.1)
+```bash
+STAR --runMode genomeGenerate --runThreadN 8 --genomeDir ./star_reference --genomeFastaFiles GCF_023065955.1_UrsArc1.0_genomic.fna --sjdbGTFfile GCF_023065955.1_UrsArc1.0_genomic.gff
+```
+
+##### Mapping reads 
+```bash
+STAR --genomeDir ./star_reference/ --runThreadN 8 --outFilterMultimapNmax 1 --twopassMode Basic --sjdbGTFfile GCF_023065955.1_UrsArc1.0_genomic.gff --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix ./star_mapped/[output_prefix] --readFilesIn [path/to/file1] [path/to/file2]
+```
