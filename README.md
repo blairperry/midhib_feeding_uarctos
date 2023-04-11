@@ -15,7 +15,8 @@ For questions, please contact blair.perry(at)wsu.edu.
 
 ## Contents
 [1. Quality trimming, mapping, and processing of RNA-seq data](#1-quality-trimming-mapping-and-processing-of-rna-seq-data)
-IN PROGRESS.
+
+IN PROGRESS
 
 ---
 
