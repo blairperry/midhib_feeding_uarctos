@@ -39,14 +39,14 @@ seqtk sample -s100 [path/to/trimmmed/read2] 6400000 > ./subsampled/[path/to/trim
 ```
 
 #### Mapping with STAR
-
-##### Index genome for use with STAR
 Assembly: [GCF_023065955.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_023065955.1)
+
+Index genome for use with STAR
 ```bash
 STAR --runMode genomeGenerate --runThreadN 8 --genomeDir ./star_reference --genomeFastaFiles GCF_023065955.1_UrsArc1.0_genomic.fna --sjdbGTFfile GCF_023065955.1_UrsArc1.0_genomic.gff
 ```
 
-##### Mapping reads 
+Mapping reads 
 ```bash
 STAR --genomeDir ./star_reference/ --runThreadN 8 --outFilterMultimapNmax 1 --twopassMode Basic --sjdbGTFfile GCF_023065955.1_UrsArc1.0_genomic.gff --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix ./star_mapped/[output_prefix] --readFilesIn [path/to/file1] [path/to/file2]
 ```
