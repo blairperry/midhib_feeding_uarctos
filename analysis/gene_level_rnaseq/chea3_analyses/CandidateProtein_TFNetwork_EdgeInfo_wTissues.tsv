@@ -1,0 +1,186 @@
+tf	targets	count	chip_arrow	GO_enrichment	tissue_general	tissue_specific
+AEBP1	PRRX2	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+CREB3L3	HNF4A	6	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	NR1H4	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	MLXIPL	3	0	negative regulation of small molecule me...	Liver	Liver
+EBF1	TSHZ2	4	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+FOXA2	HNF4A	5	1	pancreas development	Pancreas	Pancreas
+FOXA2	MLXIPL	2	1	pancreas development	Pancreas	Pancreas
+FOXA2	HNF1A	6	1	pancreas development	Pancreas	Pancreas
+HHEX	NR1H4	2	1	thyroid hormone generation	Thyroid	Thyroid
+HNF1A	HNF4A	6	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	MLXIPL	3	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	NR1H4	3	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	FOXA2	6	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	CREB3L3	2	0	negative regulation of small molecule me...	Liver	Liver
+HNF4A	CREB3L3	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	MLXIPL	5	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	NR1H4	4	1	negative regulation of small molecule me...	Liver	Liver
+MKX	TBX18	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MLXIPL	HNF4A	5	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	CREB3L3	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	CREB3L3	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	HNF4A	4	0	negative regulation of small molecule me...	Liver	Liver
+ONECUT1	HNF4A	2	0	pancreas development	Pancreas	Pancreas
+OSR1	PRRX2	2	0	NA	NA	NA
+OSR1	TBX18	2	0	NA	NA	NA
+OSR1	AEBP1	2	0	NA	NA	NA
+OSR2	TBX18	2	0	blastoderm segmentation	Uterus	Uterus
+PRDM6	TBX18	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	OSR2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	TSHZ2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	OSR1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	PRRX2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PROX1	HNF4A	4	1	negative regulation of small molecule me...	Liver	Liver
+PROX1	MLXIPL	2	0	negative regulation of small molecule me...	Liver	Liver
+PROX1	NR1H4	3	0	negative regulation of small molecule me...	Liver	Liver
+PRRX2	AEBP1	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRRX2	OSR1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRRX2	TBX18	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	OSR2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	PRRX2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	OSR1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	AEBP1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+HNF4A	NR1H3	3	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	PROX1	4	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	HNF1A	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	FOXA2	5	1	negative regulation of small molecule me...	Liver	Liver
+ATOH8	EBF1	2	0	NA	NA	NA
+FOXA2	PROX1	3	1	pancreas development	Pancreas	Pancreas
+FOXA2	HHEX	2	1	pancreas development	Pancreas	Pancreas
+FOXA2	ONECUT1	3	0	pancreas development	Pancreas	Pancreas
+GSC	EBF1	2	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+HOXA2	FOXA2	2	0	embryonic organ morphogenesis	Esophagus	Esophagus - Muscularis
+NR1H4	MLXIPL	2	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	PROX1	3	0	negative regulation of small molecule me...	Liver	Liver
+ONECUT1	PROX1	3	1	pancreas development	Pancreas	Pancreas
+ONECUT1	FOXA2	3	1	pancreas development	Pancreas	Pancreas
+ONECUT1	HHEX	2	1	pancreas development	Pancreas	Pancreas
+OSR2	EBF1	2	0	blastoderm segmentation	Uterus	Uterus
+PROX1	FOXA2	3	0	negative regulation of small molecule me...	Liver	Liver
+TBX18	EBF1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TSHZ2	EBF1	4	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+OSR1	PRDM6	2	0	NA	NA	NA
+EBF1	TBX18	2	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+EBF1	GSC	2	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+TBX18	PRDM6	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+AEBP1	TBX18	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+AEBP1	OSR1	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MLXIPL	NR1H4	2	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	HNF1A	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	PROX1	2	0	negative regulation of small molecule me...	Liver	Liver
+PRRX2	PRDM6	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+NR1H4	HNF1A	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	HNF1A	2	0	negative regulation of small molecule me...	Liver	Liver
+FOXA2	HOXA2	2	1	pancreas development	Pancreas	Pancreas
+CREB3L3	VTN	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	IGFBP2	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	IGFALS	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	IGF1	3	0	negative regulation of small molecule me...	Liver	Liver
+CREB3L3	C2	3	0	negative regulation of small molecule me...	Liver	Liver
+ARID3C	VTN	2	0	negative regulation of small molecule me...	Liver	Liver
+ARID3C	IGFALS	2	0	negative regulation of small molecule me...	Liver	Liver
+ARID3C	C2	2	0	negative regulation of small molecule me...	Liver	Liver
+AEBP1	C1S	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+AEBP1	IGFBP2	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+AEBP1	SOD3	2	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	C1S	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	IGFBP2	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	IGF1	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRDM6	SOD3	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MLXIPL	VTN	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	C1S	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	IGFBP2	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	IGFALS	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	IGF1	3	0	negative regulation of small molecule me...	Liver	Liver
+MLXIPL	C2	3	0	negative regulation of small molecule me...	Liver	Liver
+ONECUT1	VTN	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	C1S	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	IGFBP2	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	IGFALS	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	IGF1	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	JCHAIN	4	1	pancreas development	Pancreas	Pancreas
+ONECUT1	C2	4	1	pancreas development	Pancreas	Pancreas
+OSR2	C1S	3	0	blastoderm segmentation	Uterus	Uterus
+OSR2	IGFBP2	3	0	blastoderm segmentation	Uterus	Uterus
+OSR2	IGF1	3	0	blastoderm segmentation	Uterus	Uterus
+OSR2	SOD3	3	0	blastoderm segmentation	Uterus	Uterus
+NR1H4	VTN	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	IGFBP2	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	IGFALS	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	IGF1	3	0	negative regulation of small molecule me...	Liver	Liver
+NR1H4	C2	3	0	negative regulation of small molecule me...	Liver	Liver
+MKX	C1S	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MKX	IGFBP2	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MKX	IGF1	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+MKX	SOD3	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+OSR1	C1S	2	0	NA	NA	NA
+OSR1	SOD3	2	0	NA	NA	NA
+ATOH8	C1S	3	0	NA	NA	NA
+ATOH8	IGFBP2	3	0	NA	NA	NA
+ATOH8	SOD3	3	0	NA	NA	NA
+FOXA2	VTN	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	C1S	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	IGFBP2	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	IGFALS	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	IGF1	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	C2	6	1	pancreas development	Pancreas	Pancreas
+FOXA2	JCHAIN	6	1	pancreas development	Pancreas	Pancreas
+HHEX	VTN	4	1	thyroid hormone generation	Thyroid	Thyroid
+HHEX	IGFBP2	4	1	thyroid hormone generation	Thyroid	Thyroid
+HHEX	IGF1	4	1	thyroid hormone generation	Thyroid	Thyroid
+ELF5	C1S	5	1	NA	NA	NA
+ELF5	IGFBP2	5	1	NA	NA	NA
+ELF5	IGF1	5	1	NA	NA	NA
+ELF5	SOD3	5	1	NA	NA	NA
+ELF5	JCHAIN	5	1	NA	NA	NA
+TBX18	C1S	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	IGF1	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+TBX18	SOD3	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PROX1	VTN	4	1	negative regulation of small molecule me...	Liver	Liver
+PROX1	IGFBP2	4	1	negative regulation of small molecule me...	Liver	Liver
+PROX1	IGFALS	4	1	negative regulation of small molecule me...	Liver	Liver
+PROX1	IGF1	4	1	negative regulation of small molecule me...	Liver	Liver
+PROX1	C2	4	1	negative regulation of small molecule me...	Liver	Liver
+ASCL3	IGF1	3	0	NA	NA	NA
+ASCL3	JCHAIN	3	0	NA	NA	NA
+GSC	C1S	3	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+GSC	IGFBP2	3	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+PRRX2	C1S	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRRX2	IGFBP2	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+PRRX2	SOD3	3	0	collagen fibril organization	Blood Vessel	Artery - Tibial
+HNF4A	VTN	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	C1S	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	IGFBP2	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	IGF1	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF4A	C2	6	1	negative regulation of small molecule me...	Liver	Liver
+HNF1A	VTN	3	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	IGFALS	3	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	IGF1	3	0	negative regulation of small molecule me...	Liver	Liver
+HNF1A	C2	3	0	negative regulation of small molecule me...	Liver	Liver
+HOXA2	IGFBP2	4	1	embryonic organ morphogenesis	Esophagus	Esophagus - Muscularis
+HOXA2	SOD3	4	1	embryonic organ morphogenesis	Esophagus	Esophagus - Muscularis
+NR1H3	C1S	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+NR1H3	IGFBP2	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+NR1H3	IGF1	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+NR1H3	C2	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+EBF1	C1S	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+EBF1	IGF1	5	1	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+TSHZ2	C1S	3	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+TSHZ2	IGF1	3	0	stem cell fate specification	Adipose Tissue	Adipose - Subcutaneous
+TSHZ2	Reversed genes in adipose	1	3	NA	NA	NA
+EBF1	Reversed genes in adipose	1	3	NA	NA	NA
+TBX18	Reversed genes in adipose	1	3	NA	NA	NA
+AEBP1	Reversed genes in adipose	1	3	NA	NA	NA
+ARID3C	Reversed genes in liver	1	3	NA	NA	NA
+MLXIPL	Reversed genes in liver	1	3	NA	NA	NA
+HNF4A	Reversed genes in liver	1	3	NA	NA	NA
+CREB3L3	Reversed genes in liver	1	3	NA	NA	NA
+NR1H4	Reversed genes in liver	1	3	NA	NA	NA
+HNF1A	Reversed genes in liver	1	3	NA	NA	NA
+ONECUT1	Reversed genes in liver	1	3	NA	NA	NA
+PRDM6	Reversed genes in liver	1	3	NA	NA	NA
+EBF1	Reversed genes in liver	1	3	NA	NA	NA
+ATOH8	Reversed genes in muscle	1	3	NA	NA	NA
+PRRX2	Reversed genes in muscle	1	3	NA	NA	NA
+TBX18	Reversed genes in muscle	1	3	NA	NA	NA
