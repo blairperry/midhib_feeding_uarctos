@@ -170,3 +170,14 @@ The following R script contains code used to:
 
 Link to Rscript: [IsoSwitch_GOAnalysis_02.24.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/isoform_level_rnaseq/IsoSwitch_GOAnalysis_02.24.23.R "IsoSwitch_GOAnalysis_02.24.23.R")
 
+
+---
+
+### 4. Investigation of Insulin Signaling Candidate Genes
+
+The following R script contains code used to:
+-  Intersect a set of insulin signaling candidate genes with results of DE, reversal, and differential isoform analyses conducted using scripts above. 
+- Supplementary plotting of candidate gene differential expression and isoform usage. 
+
+Link to Rscript: [InsulinSignaling_CandGeneExploration_02.28.24.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/insulin_genes/InsulinSignaling_CandGeneExploration_02.28.24.R "InsulinSignaling_CandGeneExploration_02.28.24.R")
+
