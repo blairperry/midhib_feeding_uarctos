@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 13647520,
+	"n_pseudoaligned": 10289104,
+	"n_unique": 5769884,
+	"p_pseudoaligned": 75.4,
+	"p_unique": 42.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Feb 21 06:41:41 2023",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/FAA /scratch/user/blair.perry/20230209_114930/FAA_1stRun_S14_L001_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/FAA_1stRun_S14_L001_R2_001_val_2.fq.gz /scratch/user/blair.perry/20230209_114930/FAA_2ndRun_S14_L001_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/FAA_2ndRun_S14_L001_R2_001_val_2.fq.gz /scratch/user/blair.perry/20230209_114930/FAA_S14_L008_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/FAA_S14_L008_R2_001_val_2.fq.gz"
+}

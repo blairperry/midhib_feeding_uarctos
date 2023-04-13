@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 13552044,
+	"n_pseudoaligned": 10404927,
+	"n_unique": 5596439,
+	"p_pseudoaligned": 76.8,
+	"p_unique": 41.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Feb 21 06:43:53 2023",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/JHA /scratch/user/blair.perry/20230209_114930/JHA_1stRun_S17_L001_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/JHA_1stRun_S17_L001_R2_001_val_2.fq.gz /scratch/user/blair.perry/20230209_114930/JHA_2ndRun_S17_L001_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/JHA_2ndRun_S17_L001_R2_001_val_2.fq.gz /scratch/user/blair.perry/20230209_114930/JHA_S17_L008_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/JHA_S17_L008_R2_001_val_2.fq.gz"
+}

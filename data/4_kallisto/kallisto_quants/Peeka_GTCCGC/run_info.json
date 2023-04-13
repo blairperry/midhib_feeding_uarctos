@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 6400000,
+	"n_pseudoaligned": 3404983,
+	"n_unique": 1326999,
+	"p_pseudoaligned": 53.2,
+	"p_unique": 20.7,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Sep 26 09:50:00 2022",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/Peeka_GTCCGC /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/Peeka_GTCCGC.R1.concat.sub.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/Peeka_GTCCGC.R2.concat.sub.fq.gz"
+}

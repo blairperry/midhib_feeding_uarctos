@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 7103505,
+	"n_pseudoaligned": 4490224,
+	"n_unique": 2573725,
+	"p_pseudoaligned": 63.2,
+	"p_unique": 36.2,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Feb 21 06:46:30 2023",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/RAA /scratch/user/blair.perry/20230209_114930/RAA_1stRun_S12_L001_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/RAA_1stRun_S12_L001_R2_001_val_2.fq.gz /scratch/user/blair.perry/20230209_114930/RAA_S12_L008_R1_001_val_1.fq.gz /scratch/user/blair.perry/20230209_114930/RAA_S12_L008_R2_001_val_2.fq.gz"
+}

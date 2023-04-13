@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 6400000,
+	"n_pseudoaligned": 4831727,
+	"n_unique": 1940574,
+	"p_pseudoaligned": 75.5,
+	"p_unique": 30.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Sep 26 09:47:52 2022",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/FMHi /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/FMHi.R1.concat.sub.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/FMHi.R2.concat.sub.fq.gz"
+}

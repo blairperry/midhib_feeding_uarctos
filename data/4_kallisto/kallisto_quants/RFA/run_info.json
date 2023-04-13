@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 6400000,
+	"n_pseudoaligned": 3541845,
+	"n_unique": 1796773,
+	"p_pseudoaligned": 55.3,
+	"p_unique": 28.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Sep 26 09:51:44 2022",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/RFA /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/RFA.R1.concat.sub.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/concatenated/subsampled/RFA.R2.concat.sub.fq.gz"
+}

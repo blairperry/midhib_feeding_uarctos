@@ -1,0 +1,13 @@
+{
+	"n_targets": 60162,
+	"n_bootstraps": 0,
+	"n_processed": 5510683,
+	"n_pseudoaligned": 1251723,
+	"n_unique": 545109,
+	"p_pseudoaligned": 22.7,
+	"p_unique": 9.9,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Sep 26 09:58:56 2022",
+	"call": "kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/E2_S34 /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/E2_S34_L002_R1_001_val_1.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/E2_S34_L002_R2_001_val_2.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/E2_S34_L007_R1_001_val_1.fq.gz /scratch/user/blair.perry/20220923_053607/dex_data/1_trim/E2_S34_L007_R2_001_val_2.fq.gz"
+}
