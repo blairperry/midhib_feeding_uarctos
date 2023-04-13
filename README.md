@@ -90,6 +90,13 @@ The following R script contains code used to:
 
 Link to Rscript: [_GeneLevel_DEseq2_08.10.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/_GeneLevel_DEseq2_08.10.22.R)
 
+#### Gene Ontology (GO) and KEGG pathway overrepresentation analysis of differentially expressed genes
+
+The following R script contains code used to:
+- Characterization of enriched GO and KEGG terms for differentially expressed (DE) genes identified in above script
+
+Link to Rscript: [DEGene_GOAnalysis_02.23.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/DEGene_GOAnalysis_02.23.23.R "DEGene_GOAnalysis_02.23.23.R")
+
 #### Gene-level Differential Expression Analyses (Cell culture samples)
 
 The following R script contains code used to:
@@ -101,12 +108,20 @@ Link to Rscript: [_CellCulture_GeneLevel_DEseq2_02.10.23.R](https://github.com/
 #### Identification of genes with reversed expression after feeding
 
 The following R script contains code used to:
--  Compare differentially expressed (DE) genes after mid-hibernation feeding with DE genes between active and hibernation seasons
+-  Compare DE genes after mid-hibernation feeding with DE genes between active and hibernation seasons
 -  Identify genes with "reversed" expression
 	- Downregulated during hibernation -> upregulated after feeding
 	- Upregulated during hibernation -> downregulated after feeding 
 - Generate plot for Figure 1 of manuscript - venn diagrams showing overlap of DE genes from this study and Jansen et al 2019, dot-plots of reversed gene log2-fold changes
-- Gene Ontology (GO) and KEGG pathway enrichment analysis of reversed genes
+- GO and KEGG pathway enrichment analysis of reversed genes
 	- Supplementary plotting of enrichment results
-	
+
 Link to Rscript: [2019vsPostDex_DEComparisons_11.01.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/2019vsPostDex_DEComparisons_11.01.22.R "2019vsPostDex_DEComparisons_11.01.22.R")
+
+#### Comparison between tissue-level and cell culture gene expression 
+
+The following R script contains code used to:
+-  Compare differentially expressed (DE) genes after mid-hibernation feeding in adipose tissue with DE genes in hibernation adipocytes cultured with post-feeding serum (Saxton et al. 2022)
+- Supplementary plotting of overlap and log2-fold changes of overlapping genes
+
+Link to Rscript: [CellCultureVsPostDex_DEComparisons_02.13.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/CellCultureVsPostDex_DEComparisons_02.13.23.R "CellCultureVsPostDex_DEComparisons_02.13.23.R")
