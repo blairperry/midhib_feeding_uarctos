@@ -15,7 +15,9 @@ For questions, please contact blair.perry(at)wsu.edu.
 
 ## Contents
 [1. Quality trimming, mapping, and processing of RNA-seq data](#1-quality-trimming-mapping-and-processing-of-rna-seq-data)
+
 [2. Gene-Level Expression Analyses](#2-gene-level-expression-analyses)
+
 [3. Isoform-Level Expression Analyses](#3-isoform-level-expression-analyses)
 
 
