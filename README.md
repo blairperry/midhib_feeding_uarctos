@@ -140,3 +140,30 @@ The following R script contains code used to:
 - Export network files for subsequent plotting in Cytoscape.
 
 Link to Rscript: [chea3_resultWorkbook_11.29.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/chea3_analyses/chea3_resultWorkbook_11.29.22.R "chea3_resultWorkbook_11.29.22.R")
+
+
+---
+
+### 3. Isoform-Level Expression Analyses
+
+#### Differential Isoform Usage Analyses (Tissue samples)
+
+The following R script contains code used to:
+-  Perform analysis of differential isoform usage after mid-hibernation feeding in adipose, liver, and muscle tissue. 
+
+Link to Rscript: [isoformSwitchAnalyzer_PostDex_02.24.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/isoform_level_rnaseq/isoformSwitchAnalyzer_PostDex_02.24.22.R "isoformSwitchAnalyzer_PostDex_02.24.22.R")
+
+#### Differential Isoform Usage Analyses (Cell culture samples)
+
+The following R script contains code used to:
+-  Perform analysis of differential isoform usage after stimulation with post-feeding serum in hibernation adipocyte cell culture. 
+
+Link to Rscript: [isoformSwitchAnalyzer_CellCulture_02.22.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/isoform_level_rnaseq/isoformSwitchAnalyzer_CellCulture_02.22.23.R "isoformSwitchAnalyzer_CellCulture_02.22.23.R")
+
+#### GO and KEGG pathway enrichment of genes with differential isoform usage
+
+The following R script contains code used to:
+-  Perform analysis of enriched GO and KEGG terms for genes with differential isoform usage. 
+
+Link to Rscript: [IsoSwitch_GOAnalysis_02.24.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/isoform_level_rnaseq/IsoSwitch_GOAnalysis_02.24.23.R "IsoSwitch_GOAnalysis_02.24.23.R")
+
