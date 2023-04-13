@@ -76,3 +76,16 @@ kallisto index -i transcripts.idx GCF_023065955.1_UrsArc1.0_rna.fna
 # Run Kallisto
 kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/$file_name [path/to/read1] [path/to/read2]
 ```
+
+
+---
+
+### 2. Gene-Level Expression Analyses
+
+#### Gene-level Differential Expression Analyses
+
+The following R script contains code used to:
+-   Normalize gene expression counts for tissue-level samples of adipose, liver, and muscle (this study and Jansen et al. 2019)
+-   Perform differential expression analyses between feeding experiment treatments and between active and hibernation season samples from Jansen et al. 2019
+
+Link to Rscript: [_GeneLevel_DEseq2_08.10.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/_GeneLevel_DEseq2_08.10.22.R)

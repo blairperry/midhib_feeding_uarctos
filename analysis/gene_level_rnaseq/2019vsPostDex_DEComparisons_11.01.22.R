@@ -7,6 +7,8 @@ library(org.Hs.eg.db)
 library('clusterProfiler')
 library(DOSE)
 
+
+
 # Adipose -----------------------------------------------------------------
 
 adi.deRes.fed_vs_notFed <- read_tsv('analysis/gene_level_rnaseq/pairwise_results/adipose_PWRes_Fed.vs.NotFed.tsv')
@@ -16,6 +18,7 @@ adi.deRes.hib_vs_act <- read_tsv('analysis/gene_level_rnaseq/pairwise_results/ad
 adi.venn <- list('Post-Dex Fed vs.\nPost-Dex Not Fed' = adi.deRes.fed_vs_notFed$id,
                  # 'Post-Dex Fed vs.\nPost-Dex Hib' = adi.deRes.fed_vs_pdhib$id,
                  'Jansen 2019 Hib vs.\nJansen 2019 Act' = adi.deRes.hib_vs_act$id)
+
 
 p.adi2 <- ggvenn(adi.venn,set_name_size = 4,fill_color=c('white','white','white'),show_percentage = F) + ggtitle('Adipose') + theme(plot.title = element_text(face='bold',size=18))
 
