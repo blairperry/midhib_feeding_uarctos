@@ -20,6 +20,8 @@ For questions, please contact blair.perry(at)wsu.edu.
 
 [3. Isoform-Level Expression Analyses](#3-isoform-level-expression-analyses)
 
+[4. Investigation of Insulin Signaling Candidate Genes](#4-investigation-of-insulin-signaling-candidate-genes)
+
 
 ---
 
