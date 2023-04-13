@@ -90,7 +90,7 @@ The following R script contains code used to:
 
 Link to Rscript: [_GeneLevel_DEseq2_08.10.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/_GeneLevel_DEseq2_08.10.22.R)
 
-#### Gene Ontology (GO) and KEGG pathway overrepresentation analysis of differentially expressed genes
+#### Gene Ontology (GO) and KEGG Pathway Overrepresentation Analysis of Differentially Expressed Genes
 
 The following R script contains code used to:
 - Characterization of enriched GO and KEGG terms for differentially expressed (DE) genes identified in above script
@@ -125,3 +125,18 @@ The following R script contains code used to:
 - Supplementary plotting of overlap and log2-fold changes of overlapping genes
 
 Link to Rscript: [CellCultureVsPostDex_DEComparisons_02.13.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/CellCultureVsPostDex_DEComparisons_02.13.23.R "CellCultureVsPostDex_DEComparisons_02.13.23.R")
+
+#### Prediction and Characterization of Upstream Regulatory Molecules with CHEA3
+
+The following R script contains code used to:
+-  Identify putative upstream reuglatory molecules for key subsets of DE genes and candidate serum proteins from Saxton et al 2022 using the CHEA3 API in R.
+
+Link to Rscript: [chea3_API_Analysis_11.29.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/chea3_analyses/chea3_API_Analysis_11.29.22.R "chea3_API_Analysis_11.29.22.R")
+
+The following R script contains code used to:
+-  Identify the top predicted regulators for each gene set.
+- Assess overlap of predicted regulators across tissues.
+- Generate co-regulatory network plots for Figure 2 and supplementary figures
+- Export network files for subsequent plotting in Cytoscape.
+
+Link to Rscript: [chea3_resultWorkbook_11.29.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/chea3_analyses/chea3_resultWorkbook_11.29.22.R "chea3_resultWorkbook_11.29.22.R")
