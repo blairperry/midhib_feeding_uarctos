@@ -82,10 +82,30 @@ kallisto quant -i transcripts.idx --rf-stranded -o kallisto_quants/$file_name [p
 
 ### 2. Gene-Level Expression Analyses
 
-#### Gene-level Differential Expression Analyses
+#### Gene-level Differential Expression Analyses (Tissue samples)
 
 The following R script contains code used to:
--   Normalize gene expression counts for tissue-level samples of adipose, liver, and muscle (this study and Jansen et al. 2019)
--   Perform differential expression analyses between feeding experiment treatments and between active and hibernation season samples from Jansen et al. 2019
+-  Normalize gene expression counts for tissue-level samples of adipose, liver, and muscle (this study and Jansen et al. 2019)
+-  Perform differential expression analyses between feeding experiment treatments and between active and hibernation season samples from Jansen et al. 2019
 
 Link to Rscript: [_GeneLevel_DEseq2_08.10.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/_GeneLevel_DEseq2_08.10.22.R)
+
+#### Gene-level Differential Expression Analyses (Cell culture samples)
+
+The following R script contains code used to:
+-  Normalize gene expression counts for adipocyte culture samples (Saxton et al. 2022)
+-  Perform differential expression analyses between HH (hibernation cells + hibernation serum) and HG (hibernation cells + post-feeding serum) treatments
+
+Link to Rscript: [_CellCulture_GeneLevel_DEseq2_02.10.23.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/_CellCulture_GeneLevel_DEseq2_02.10.23.R "_CellCulture_GeneLevel_DEseq2_02.10.23.R")
+
+#### Identification of genes with reversed expression after feeding
+
+The following R script contains code used to:
+-  Compare differentially expressed (DE) genes after mid-hibernation feeding with DE genes between active and hibernation seasons
+-  Identify genes with "reversed" expression
+	- Downregulated during hibernation -> upregulated after feeding
+	- Upregulated during hibernation -> downregulated after feeding 
+- Generate plot for Figure 1 of manuscript - venn diagrams showing overlap of DE genes from this study and Jansen et al 2019, dot-plots of reversed gene log2-fold changes
+- Gene Ontology (GO) and KEGG pathway enrichment analysis of reversed genes
+	- Supplementary plotting of enrichment results
+Link to Rscript: [2019vsPostDex_DEComparisons_11.01.22.R](https://github.com/blairperry/midhib_feeding_uarctos/blob/main/analysis/gene_level_rnaseq/2019vsPostDex_DEComparisons_11.01.22.R "2019vsPostDex_DEComparisons_11.01.22.R")
